@@ -86,7 +86,7 @@ class ChatPage extends StatelessWidget {
                   topLeft: Radius.circular(12),
                   topRight: Radius.circular(12),
                   bottomLeft: Radius.circular(12))),
-            ),
+             ),
           Container(
             height: 100,
             child: Row(
