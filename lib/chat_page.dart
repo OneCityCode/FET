@@ -88,7 +88,7 @@ class ChatPage extends StatelessWidget {
                   bottomLeft: Radius.circular(12))),
              ),
           Container(
-            height: 100,
+            height: 50,
             child: Row(
               children: [
                 IconButton(
@@ -102,7 +102,7 @@ class ChatPage extends StatelessWidget {
                         Icons.send, color: Colors.white))],
             ),
             decoration: BoxDecoration(
-              color: Colors.black38,
+              color: Colors.deepOrange,
               borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
           ),
         ],
