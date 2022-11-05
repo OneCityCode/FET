@@ -90,7 +90,16 @@ class ChatPage extends StatelessWidget {
           Container(
             height: 100,
             child: Row(
-              children: [IconButton(onPressed: () {}, icon: Icon(Icons.add, color: Colors.white)), IconButton(onPressed: () {}, icon: Icon(Icons.send, color: Colors.white))],
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                      Icons.add, color: Colors.white),
+              ),
+                IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                        Icons.send, color: Colors.white))],
             ),
             decoration: BoxDecoration(
               color: Colors.black38,
